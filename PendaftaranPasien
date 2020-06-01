@@ -1,0 +1,19 @@
+
+print("PENDAFTARAN PASIEN PUSKESMAS I MOJOSONGO")
+print("Jalan Sehat Sejahtera 07, Mojosongo, Solo")
+print("======================================================")
+print(" ")
+
+print ("Silakan Pilih Golongan Pasien")
+print("1: Pasien Umum")
+print("2: Pasien BPJS")
+
+try:
+    Z = int(input("Golongan 1 atau 2?: "))
+except ValueError:
+    print(" Golongan pasien harus berupa angka 1 atau 2")
+    Z = int(input("Golongan 1 atau 2?: "))
+
+print("Pilih Jenis Pelayanan Pasien")
+print("A: Pelayanan Umum")
+print("B: Pelayanan Kesehatan Gigi")
