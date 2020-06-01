@@ -16,3 +16,24 @@ except ValueError:
 print("Pilih Jenis Pelayanan Pasien")
 print("A: Pelayanan Umum")
 print("B: Pelayanan Kesehatan Gigi")
+
+try:
+    J = input("Pelayanan A atau B?: ")
+except ValueError:
+	print("Jenis pelayanan pasien harus berupa huruf A atau huruf B")
+	J = float(input("Pelayanan A atau B?: "))
+			
+kartu = input("Apakah pasien pernah berobat di sini? (y/t):")
+if kartu == "t":
+	print("Mohon maaf\nPasien dipersilahkan menuju bagian administrasi untuk mendapatkan nomor rekam medis")
+	print("Masukkan nomor rekam medis pasien!", end=' ')
+	no = input()
+	print()
+else:
+kartu = input("Apakah pasien membawa kartu berobat? (y/t):")
+if kartu == "t" :
+	print("Silahkan mencari di data pasien")
+	print("Masukkan nomor kartu berobat pasien!", end=' ')
+	no = input()
+	print()
+
