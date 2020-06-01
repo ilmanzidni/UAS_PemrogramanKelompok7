@@ -3,7 +3,6 @@ print("PENDAFTARAN PASIEN PUSKESMAS I MOJOSONGO")
 print("Jalan Sehat Sejahtera 07, Mojosongo, Solo")
 print("======================================================")
 print(" ")
-
 print ("Silakan Pilih Golongan Pasien")
 print("1: Pasien Umum")
 print("2: Pasien BPJS")
