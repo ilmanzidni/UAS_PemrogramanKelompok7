@@ -36,4 +36,21 @@ if kartu == "t" :
 	print("Masukkan nomor kartu berobat pasien!", end=' ')
 	no = input()
 	print()
-
+else:
+   kartu= input("Apakah pasien membawa kartu berobat? (y/t):")
+   if kartu == "t" :
+       print ("Silakan mencari data pasien")
+       print ("Masukkan nomor kartu berobat pasien!",end=' ')
+       no = input ()
+       print ()
+    else :
+       print("Masukkan nomor kartu berobat pasien!",end=' ')
+       no = input ()
+       print ()
+if Z == 1:
+    P = input("Pelayanan P1 atau P2?: ")
+    if P == "P1":
+        print("Mohon tunggu sebentar, data anda sedang kami proses...")
+	
+	import time
+   
